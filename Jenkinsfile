@@ -4,6 +4,7 @@ pipeline {
     environment {
         QUAY_PASS = credentials('gabdank-quay')
             }
+
     stages {
         stage('Unit-tests') {
             steps { 
