@@ -72,4 +72,3 @@ ENV PATH=/opt:/opt/scripts:/opt/scripts/common:$PATH
 ENTRYPOINT ["juicer.sh", "-D", "/opt"]
 CMD ["-h"]
 
-
